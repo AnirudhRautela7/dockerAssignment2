@@ -4,7 +4,7 @@ SmallWait = 5
 commonPath = "E:\\12)DevOps\\SELENIUM\\Testing"
 
 def createDriver():
-    driverPath = commonPath + "\WebDrivers\chromedriver.exe"
+    driverPath = commonPath + "\\WebDrivers\\chromedriver.exe"
     chromeOptions = webdriver.ChromeOptions()
     chromeOptions.add_experimental_option("excludeSwitches", ["enable-logging"])
     driver = webdriver.Chrome(executable_path=driverPath, options=chromeOptions)
